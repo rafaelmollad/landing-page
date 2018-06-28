@@ -1,0 +1,73 @@
+/* BASE STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+:root {
+  --main-text-color: #071030;
+  --main-blue: #0070E8;
+}
+
+/* HEADER */
+
+/* Common styles */
+#nav-bar ul,
+#logo h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+}
+
+#header-img {
+  margin-right: 10px;
+  font-size: 40px;
+  color: var(--main-blue);
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo h1 {
+  font-weight: 300;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+#nav-bar ul {
+  display: flex;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Select first three items */
+#nav-bar ul li:nth-child(-n + 3) {
+  margin-right: 48px;
+}
