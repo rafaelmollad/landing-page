@@ -123,3 +123,10 @@ a {
   background-size: cover;
   position: relative;
 }
+
+#hero-info {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+}
