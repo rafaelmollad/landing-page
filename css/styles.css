@@ -161,3 +161,7 @@ a {
   letter-spacing: 1px;
   font-family: 'Quicksand', sans-serif;
 }
+
+#hero-button:hover {
+  box-shadow: 0 4px 8px 0 rgba(65,75,86,0.4);
+}
