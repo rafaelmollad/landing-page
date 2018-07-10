@@ -165,3 +165,23 @@ a {
 #hero-button:hover {
   box-shadow: 0 4px 8px 0 rgba(65,75,86,0.4);
 }
+
+/* SEEN ON SECTION */
+#seen-on {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#seen-on img {
+  max-width: 18%;
+  max-height: 30px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  vertical-align: middle;
+  opacity: 0.2;
+}
+
+/* add a margin of 4% to the first 5 logos */
+#seen-on img:nth-child(-n + 5) {
+  margin-right: 4%;
+}
