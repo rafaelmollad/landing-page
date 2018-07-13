@@ -27,6 +27,7 @@ a {
 :root {
   --main-text-color: #071030;
   --main-blue: #0070E8;
+  --separator-color: #eeefef;
 }
 
 /* HEADER */
@@ -170,6 +171,7 @@ a {
 #seen-on {
   padding: 10px 0;
   text-align: center;
+  border-bottom: 1px solid var(--separator-color);
 }
 
 #seen-on img {
@@ -184,4 +186,60 @@ a {
 /* add a margin of 4% to the first 5 logos */
 #seen-on img:nth-child(-n + 5) {
   margin-right: 4%;
+}
+
+/* HOW IT WORKS SECTION */
+#how-it-works {
+  padding: 40px 0;
+  align-items: center;
+  padding: 150px 60px;
+}
+
+/* container for the three items */
+#how-it-works-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 'How it works' heading */
+#how-it-works h2 {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 2.3em;
+  letter-spacing: 2px;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}
+
+#how-it-works p,
+#how-it-works h3 {
+  text-align: center;
+}
+
+#register-icon,
+#learning-path-icon,
+#study-icon {
+  display: flex;
+  justify-content: center;
+}
+
+#register-icon i,
+#learning-path-icon i,
+#study-icon i {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: var(--main-blue);
+}
+
+/* Selects headings register, create your learning path and start learning */
+#how-it-works h3 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#how-it-works p {
+  color: #a0a5aa;
+  font-size: 1.12em;
 }
