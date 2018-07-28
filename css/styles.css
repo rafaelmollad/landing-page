@@ -268,7 +268,7 @@ a {
 /* 'Benefits' heading*/
 #benefits h2 {
   font-size: 2.3em;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -289,8 +289,17 @@ a {
 }
 
 /* paragraph describing each benefit */
-#benefits p {
+.benefit-description {
   color: #5d5b71;
   line-height: 1.5em;
   font-size: 1em;
+}
+
+/* paragraph describing the benefits section */
+#benefits-main-paragraph {
+  color: #5d5b71;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.3em;
+  font-family: 'Quicksand', sans-serif;
 }
