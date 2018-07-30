@@ -303,3 +303,46 @@ a {
   font-size: 1.3em;
   font-family: 'Quicksand', sans-serif;
 }
+
+/* VIDEO SECTION */
+#video-section {
+  display: flex;
+  padding: 100px 40px;
+  background: #F8F8F9;
+}
+
+#video-section-first-column {
+  margin-right: 40px;
+}
+
+/* Video copyright */
+#video-section-first-column p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Container for appstore and playstore images */
+#download-app {
+  margin-top: 40px;
+}
+
+/* playstore and appstore images */
+#download-app img {
+  width: 120px;
+  cursor: pointer;
+}
+
+/* Select first image inside images container*/
+#download-app img:nth-of-type(1) {
+  margin-right: 5px;
+}
+
+#video-section-second-column h2 {
+  margin-bottom: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#video-section-second-column p {
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
