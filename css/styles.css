@@ -346,3 +346,78 @@ a {
   margin-bottom: 10px;
   line-height: 1.5em;
 }
+
+/* CUSTOMERS SECTION */
+#customers {
+    padding: 100px 60px;
+    background: #F8F8F9;
+}
+
+/* Container for the testimonials */
+#customers-container {
+  display: flex;
+}
+
+/* Styles in common */
+#customers h2,
+#customers-main-paragraph {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Heart icon */
+#customers-heart {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #ed4840;
+}
+
+/* Main heading */
+#customers h2 {
+  margin-bottom: 20px;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Main paragraph */
+#customers-main-paragraph {
+  margin-bottom: 120px;
+  color: #5d5b71;
+  font-size: 1.3em;
+}
+
+/* Container for each testimonial */
+.testimonial-container {
+  border: 1px solid #E7E7E8;
+  border-radius: 5px;
+  flex: 1;
+  margin: 0 20px;
+  padding: 25px;
+  background: rgba(255,255,255,0.96);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-container img {
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+}
+
+.testimonial-container h3 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+}
+
+.testimonial-container p {
+  line-height: 1.5em;
+  color: #5d5b71;
+}
