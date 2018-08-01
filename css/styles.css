@@ -28,6 +28,7 @@ a {
   --main-text-color: #071030;
   --main-blue: #0070E8;
   --separator-color: #eeefef;
+  --on-hover-blue: #004fa4;
 }
 
 /* HEADER */
@@ -407,7 +408,7 @@ a {
 .testimonial-container img {
   border-radius: 50%;
   position: absolute;
-  top: -50px;
+  top: -64px; /* 128(image height) / 2 */
 }
 
 .testimonial-container h3 {
@@ -420,4 +421,106 @@ a {
 .testimonial-container p {
   line-height: 1.5em;
   color: #5d5b71;
+}
+
+/* PLANS SECTION */
+#plans {
+  padding: 100px 60px;
+}
+
+#plans-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+#plans h2,
+#plans-main-paragraph {
+  text-align: center;
+}
+
+#plans h2,
+#plans-main-paragraph,
+.plan h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Main heading */
+#plans h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.3em;
+}
+
+#plans-main-paragraph {
+  margin-bottom: 40px;
+  font-size: 1.3em;
+  color: #5d5b71;
+}
+
+/* Styles for a single plan */
+.plan {
+  flex: 1;
+  border: 1px solid #E7E7E8;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+/* Create a space between the basic and for teams plan */
+#pro-plan {
+  margin: 0 20px;
+}
+
+/* Heading for the type of plan */
+.plan h3 {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 160px;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
+/* ul container for all features */
+.features {
+  margin-bottom: 40px;
+}
+
+/* Styles for a single feature */
+.features li {
+  margin-bottom: 20px;
+  color: #5d5b71;
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.5em;
+}
+
+/* Styles for the features icon */
+li i {
+  position: absolute;
+  left: 0;
+  color: var(--main-blue);
+  font-size: 20px;
+}
+
+.start-plan-button {
+  padding: 20px 0;
+  background: var(--main-blue);
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Quicksand',sans-serif;
+  font-size: 1.02em;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  transition: background 1s;
+}
+
+.plan-price {
+  font-size: 25px;
+  color: var(--main-blue);
+}
+
+.start-plan-button:hover {
+  background: var(--on-hover-blue);
 }
