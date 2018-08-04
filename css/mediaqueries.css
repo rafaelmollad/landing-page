@@ -52,7 +52,7 @@
   }
 }
 
-/* Apply these styles on screens between 650px and 1060px wide */
+/* Apply these styles on screens between 650px and 850px wide */
 @media only screen and (min-width: 650px) and (max-width: 850px) {
   /* Container for the logo icon and the 'Byte' heading */
   #logo {
@@ -93,7 +93,7 @@
 
 }
 
-/* Apply theses tyles on screens between 850px and 980px wide */
+/* Apply theses tyles on screens between 850px and 1080px wide */
 @media only screen and (min-width: 850px) and (max-width: 1080px) {
   /* header container */
   #header {
