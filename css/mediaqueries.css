@@ -134,3 +134,35 @@
     margin-right: 8px;
   }
 }
+
+/* HERO SECTION */
+@media only screen and (min-width: 300px) {
+  /* Styles for main info container */
+  #hero-info {
+    padding: 0 15px;
+  }
+  /* Coding made simple text */
+  #hero-content h2 {
+    font-size: 2.4em;
+  }
+  /* Styles for the mission paragraph */
+  #hero-content p {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width: 1060px) {
+  /* Coding made simple text */
+  #hero-content h2 {
+    font-size: 4em;
+  }
+  /* Styles for the mission paragraph */
+  #hero-content p {
+    font-size: 1.7em;
+  }
+
+  /* Get started button */
+  #hero-button {
+    font-size: 1em;
+    padding: 20px 40px;
+  }
+}
