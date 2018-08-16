@@ -129,6 +129,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed; /* Creates parallax scrolling effect */
 }
 
 /* Contains hero-information and get started button */
