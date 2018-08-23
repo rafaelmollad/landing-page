@@ -166,3 +166,71 @@
     padding: 20px 40px;
   }
 }
+
+/* SEEN ON SECTION */
+
+/* Apply these styles on devices from 275px width */
+@media only screen and (min-width: 275px) {
+  /* main container */
+  #seen-on {
+    flex-direction: column;
+  }
+
+  /* Container for the images */
+  .seen-on-images-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* Select first five images */
+  #seen-on img:nth-child(-n + 5) {
+    margin: 0;
+  }
+
+  /* Select first image container */
+  #seen-on .seen-on-images-container:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  /* Select ALL images in this section */
+  #seen-on img {
+    width: 60px;
+    height: auto;
+  }
+}
+
+/* Apply these styles on devices from 600px wide */
+@media only screen and (min-width: 600px) {
+  /* Select ALL images in this section */
+  #seen-on img {
+    width: 70px;
+  }
+}
+
+/* Apply thes styles on devices from 850 wide */
+@media only screen and (min-width: 850px) {
+  /* Main container */
+  #seen-on {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  /* Select first image container */
+  #seen-on .seen-on-images-container:first-of-type {
+    margin-bottom: 0;
+  }
+
+  /* Select ALL images in this section */
+  #seen-on img {
+    width: 15%;
+    max-height: 30px;
+  }
+
+  /* Container for the images */
+  .seen-on-images-container {
+    flex-grow: 1; /* Divide the remaining space equally to both containers */
+  }
+}

@@ -186,6 +186,7 @@ a {
   padding: 10px 0;
   text-align: center;
   border-bottom: 1px solid var(--separator-color);
+  display: flex;
 }
 
 #seen-on img {
