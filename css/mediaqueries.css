@@ -234,3 +234,95 @@
     flex-grow: 1; /* Divide the remaining space equally to both containers */
   }
 }
+
+/* HOW IT WORKS SECTION */
+
+/* Apply these styles to devices from 275px wide */
+@media only screen and (min-width: 275px) {
+ /* main-container */
+ #how-it-works {
+   padding: 100px 10px;
+ }
+
+  /* How it works heading */
+  #how-it-works h2 {
+    font-size: 2.02em;
+    margin-bottom: 50px;
+  }
+
+  /* Container for register, learning path and study divs */
+  #how-it-works-container {
+    flex-direction: column;
+  }
+
+  /* Icons */
+  #register-icon i,
+  #learning-path-icon i,
+  #study-icon i {
+    font-size: 35px;
+  }
+
+  /* Headings 'Register', 'Create your learning path' and 'Start learning' */
+  #how-it-works h3 {
+    font-size: 1.3em;
+  }
+
+  /* Paragraphs describing each process */
+  #how-it-works p {
+    font-size: 1.05em;
+  }
+
+  /* Container for 'create your learning path' section */
+  #learning-path {
+    margin: 30px 0;
+  }
+}
+
+/* Apply these styles to devices from 850px wide */
+@media only screen and (min-width: 850px) {
+  /* Container for register, learning path and study divs */
+  #how-it-works-container {
+    flex-direction: row;
+  }
+
+  /* Container for 'create your learning path' section */
+  #learning-path {
+    margin: 0;
+  }
+
+  /* How it works heading */
+  #how-it-works h2 {
+    margin-bottom: 60px;
+  }
+}
+
+/* Apply these styles to devices from 1060px wide */
+@media only screen and (min-width: 1060px) {
+  /* main-container */
+  #how-it-works {
+    padding: 150px 20px;
+  }
+
+  /* How it works heading */
+  #how-it-works h2 {
+    margin-bottom: 70px;
+    font-size: 2.3em;
+  }
+
+  /* Headings 'Register', 'Create your learning path' and 'Start learning' */
+  #how-it-works h3 {
+    font-size: 1.5em;
+  }
+
+  /* Paragraphs describing each process */
+  #how-it-works p {
+    font-size: 1.05em;
+  }
+
+  /* Icons */
+  #register-icon i,
+  #learning-path-icon i,
+  #study-icon i {
+    font-size: 40px;
+  }
+}
