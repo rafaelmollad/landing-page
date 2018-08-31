@@ -326,3 +326,105 @@
     font-size: 40px;
   }
 }
+
+/* VIDEO SECTION */
+@media only screen and (min-width: 275px) {
+  /* Main container */
+  #video-section {
+    flex-direction: column;
+    padding: 100px 0;
+  }
+
+  /* Container for the video */
+  #video-section-first-column {
+    margin-right: 0;
+  }
+
+  /* Container for the text and the download app buttons */
+  #video-section-second-column {
+    padding: 0 15px;
+  }
+
+  /* Learn from experts in programming...*/
+  #video-section-second-column h2 {
+    font-size: 1.3em;
+  }
+
+  /* Paragraph for the first column */
+  #video-section-first-column p {
+    margin-bottom: 25px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Container for the download app buttons */
+  #download-app {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Select the first download app button image */
+  #download-app img:nth-of-type(1) {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  iframe {
+    height: 360px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* Main container */
+  #video-section {
+    flex-direction: row;
+    padding: 100px 40px;
+  }
+
+  /* Container for the video */
+  #video-section-first-column {
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+
+  /* Video copyright paragraph */
+  #video-section-first-column p {
+    margin-top: 0;
+  }
+
+  iframe {
+    width: 450px;
+  }
+
+  /* Container for the download app buttons */
+  #download-app {
+    display: inline-block;
+  }
+
+  /* Select the first download app button image */
+  #download-app img:nth-of-type(1) {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  /* Main container */
+  #video-section {
+    align-items: center;
+  }
+
+  /* Learn from experts in programming...*/
+  #video-section-second-column h2 {
+    font-size: 1.5em;
+  }
+
+  iframe {
+    width: 640px;
+    height: 360px;
+    padding-bottom: 15px;
+  }
+}
