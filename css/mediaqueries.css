@@ -1,4 +1,3 @@
-/* Mobile styles */
 
 /* HEADER */
 /* Apply these styles on screens up to to 850px wide */
@@ -426,5 +425,90 @@
     width: 640px;
     height: 360px;
     padding-bottom: 15px;
+  }
+}
+
+/* BENEFITS SECTION */
+@media only screen and (min-width: 275px) {
+  /* Main container */
+  #benefits {
+    padding: 150px 0px;
+  }
+
+  /* 'Why choose byte' heading */
+  #benefits h2 {
+    font-size: 2.02em;
+  }
+
+  /* Heading for each benefit */
+  #benefits h3 {
+    margin-bottom: 15px;
+  }
+
+  /* Paragraphs */
+  #benefits p {
+    font-size: 1.1em;
+  }
+
+  /* Containers for the benefits */
+  #benefits-first-row,
+  #benefits-second-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* First benefits container */
+  #benefits-first-row {
+    margin-bottom: 0;
+  }
+
+  /* Select all the benefits */
+  #benefits-first-row div,
+  #benefits-second-row div {
+    width: auto;
+    margin-bottom: 40px;
+  }
+
+  /* Selects the last element in the second row */
+  #payment {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* 'Why choose byte' heading */
+  #benefits h2 {
+    font-size: 2.3em;
+  }
+
+  /* 'Byte is effective online education' paragraph */
+  #benefits-main-paragraph {
+    font-size: 1.3em !important;
+  }
+
+  /* Containers for the benefits */
+  #benefits-first-row,
+  #benefits-second-row {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  /* First benefits container */
+  #benefits-first-row {
+    margin-bottom: 60px;
+  }
+
+  /* Select all the benefits */
+  #benefits-first-row div,
+  #benefits-second-row div {
+    width: 33.33%;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  /* Main container */
+  #benefits {
+    padding: 150px 60px;
   }
 }
