@@ -127,7 +127,7 @@ a {
 /* HERO */
 #hero {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/hero.jpg');
-  height: 85vh;
+  height: 100vh;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -142,6 +142,7 @@ a {
 /* Contains hero-information and get started button */
 #hero-content {
   text-align: center; /* Centers the get started button */
+  padding-top: 150px;
 }
 
 /* Container for hero text */
