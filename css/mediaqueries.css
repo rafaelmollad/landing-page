@@ -574,3 +574,101 @@
     padding: 100px 60px;
   }
 }
+
+/* PLANS SECTION */
+@media only screen and (min-width: 275px) {
+  /* Main container */
+  #plans {
+    padding: 100px 10px;
+  }
+
+  /* 'Pick your plan' heading */
+  #plans h2 {
+    font-size: 2.02em;
+  }
+
+  /* 'Start learning today' paragraph */
+  #plans-main-paragraph {
+    font-size: 1.2em;
+  }
+
+  /* Container for each plan */
+  #plans-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* Styles for each plan */
+  .plan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Basic plan and pro plan */
+  #basic-plan,
+  #pro-plan {
+    margin-bottom: 30px;
+  }
+
+  /* Container of features for the basic and pro plan */
+  #basic-plan .features,
+  #pro-plan .features{
+    margin-top: 20px;
+  }
+
+  /* Heading for each plan */
+  .plan h3 {
+    margin-right: 0;
+    display: block;
+    text-align: center;
+  }
+
+  /* Price for each plan */
+  .plan-price {
+    margin: 0 auto;
+    display: table;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* Container for each plan */
+  #plans-container {
+    flex-direction: row;
+  }
+
+  /* 'Pick your plan' heading */
+  #plans h2 {
+    font-size: 2.3em;
+  }
+
+  /* 'Start learning today' paragraph */
+  #plans-main-paragraph {
+    font-size: 1.3em;
+  }
+
+  /* Basic plan and pro plan */
+  #basic-plan,
+  #pro-plan {
+    margin-bottom: 0;
+  }
+
+  /* Basic plan and for teams plan */
+  #basic-plan,
+  #for-teams-plan {
+    align-self: flex-end;
+  }
+
+  /* Pro plan */
+  #pro-plan {
+    border: 2px dashed khaki;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  /* Main container */
+  #plans {
+    padding: 100px 60px;
+  }
+}
