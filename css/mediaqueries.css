@@ -1,0 +1,793 @@
+
+/* HEADER */
+/* Apply these styles on screens up to to 850px wide */
+@media only screen and (max-width: 850px) {
+  #header {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 10px;
+  }
+
+  /* Container for the logo icon and the 'Byte' heading */
+  #logo {
+    margin-bottom: 20px;
+  }
+
+  /* 'Byte' heading */
+  #logo h1 {
+    font-size: 2em;
+  }
+
+  /* Logo image */
+  #header-img {
+    font-size: 35px;
+  }
+
+  /* Container for the links and the nav buttons */
+  #nav-bar {
+    flex-direction: column;
+  }
+
+  /* Container for the links 'how it works', 'benfits' and 'pricing' */
+  #nav-bar ul {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Styles for each link */
+  .nav-link {
+    width: 33.33%;
+    font-size: 0.79em;
+    line-height: 1.3em;
+    margin: 0;
+  }
+
+  /* Login and signup buttons */
+  .nav-button {
+    font-size: 0.65em;
+    padding: 10px;
+    display: inline-block;
+  }
+}
+
+/* Apply these styles on screens between 650px and 850px wide */
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+  /* Container for the logo icon and the 'Byte' heading */
+  #logo {
+    margin-bottom: 30px;
+  }
+
+  /* 'Byte' heading */
+  #logo h1 {
+    font-size: 2.2em;
+  }
+
+  /* Logo image */
+  #header-img {
+    font-size: 38px;
+  }
+
+  #nav-bar {
+    align-self: stretch;
+  }
+
+  /* Styles for each link */
+  .nav-link {
+    width: auto;
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+
+  /* Benefits link */
+  .nav-link:nth-of-type(2) {
+    margin: 0 30px;
+  }
+
+  /* Login and signup buttons */
+  .nav-button {
+    font-size: 0.65em;
+    padding: 14px 16px;
+  }
+
+}
+
+/* Apply theses tyles on screens between 850px and 1080px wide */
+@media only screen and (min-width: 850px) and (max-width: 1080px) {
+  /* header container */
+  #header {
+    padding: 50px;
+  }
+
+  /* 'Byte' heading */
+  #logo h1 {
+    font-size: 1.8em;
+  }
+
+  /* Logo image */
+  #header-img {
+    font-size: 35px;
+  }
+
+  /* Styles for each link */
+  .nav-link {
+    width: auto;
+    font-size: 0.77em;
+    line-height: 0.76em;
+    margin-right: 20px;
+  }
+
+  /* Pricing link */
+  .nav-link:nth-of-type(3) {
+    margin-right: 40px;
+  }
+
+  /* Login and signup buttons */
+  .nav-button {
+    font-size: 0.7em;
+    padding: 8px 10px;
+  }
+
+  /* Login button */
+  #login-button {
+    margin-right: 8px;
+  }
+}
+
+/* HERO SECTION */
+@media only screen and (min-width: 300px) {
+  /* Styles for main info container */
+  #hero-info {
+    padding: 0 15px;
+  }
+  /* Coding made simple text */
+  #hero-content h2 {
+    font-size: 2.4em;
+  }
+  /* Styles for the mission paragraph */
+  #hero-content p {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width: 1060px) {
+  /* Coding made simple text */
+  #hero-content h2 {
+    font-size: 4em;
+  }
+  /* Styles for the mission paragraph */
+  #hero-content p {
+    font-size: 1.7em;
+  }
+
+  /* Get started button */
+  #hero-button {
+    font-size: 1em;
+    padding: 20px 40px;
+  }
+}
+
+/* SEEN ON SECTION */
+
+/* Apply these styles on devices from 275px width */
+@media only screen and (min-width: 275px) {
+  /* main container */
+  #seen-on {
+    flex-direction: column;
+  }
+
+  /* Container for the images */
+  .seen-on-images-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* Select first five images */
+  #seen-on img:nth-child(-n + 5) {
+    margin: 0;
+  }
+
+  /* Select first image container */
+  #seen-on .seen-on-images-container:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  /* Select ALL images in this section */
+  #seen-on img {
+    width: 60px;
+    height: auto;
+  }
+}
+
+/* Apply these styles on devices from 600px wide */
+@media only screen and (min-width: 600px) {
+  /* Select ALL images in this section */
+  #seen-on img {
+    width: 70px;
+  }
+}
+
+/* Apply thes styles on devices from 850 wide */
+@media only screen and (min-width: 850px) {
+  /* Main container */
+  #seen-on {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  /* Select first image container */
+  #seen-on .seen-on-images-container:first-of-type {
+    margin-bottom: 0;
+  }
+
+  /* Select ALL images in this section */
+  #seen-on img {
+    width: 15%;
+    max-height: 30px;
+  }
+
+  /* Container for the images */
+  .seen-on-images-container {
+    flex-grow: 1; /* Divide the remaining space equally to both containers */
+  }
+}
+
+/* HOW IT WORKS SECTION */
+
+/* Apply these styles to devices from 275px wide */
+@media only screen and (min-width: 275px) {
+ /* main-container */
+ #how-it-works {
+   padding: 100px 10px;
+ }
+
+  /* How it works heading */
+  #how-it-works h2 {
+    font-size: 2.02em;
+    margin-bottom: 50px;
+  }
+
+  /* Container for register, learning path and study divs */
+  #how-it-works-container {
+    flex-direction: column;
+  }
+
+  /* Icons */
+  #register-icon i,
+  #learning-path-icon i,
+  #study-icon i {
+    font-size: 35px;
+  }
+
+  /* Headings 'Register', 'Create your learning path' and 'Start learning' */
+  #how-it-works h3 {
+    font-size: 1.3em;
+  }
+
+  /* Paragraphs describing each process */
+  #how-it-works p {
+    font-size: 1.05em;
+  }
+
+  /* Container for 'create your learning path' section */
+  #learning-path {
+    margin: 30px 0;
+  }
+}
+
+/* Apply these styles to devices from 850px wide */
+@media only screen and (min-width: 850px) {
+  /* Container for register, learning path and study divs */
+  #how-it-works-container {
+    flex-direction: row;
+  }
+
+  /* Container for 'create your learning path' section */
+  #learning-path {
+    margin: 0;
+  }
+
+  /* How it works heading */
+  #how-it-works h2 {
+    margin-bottom: 60px;
+  }
+}
+
+/* Apply these styles to devices from 1060px wide */
+@media only screen and (min-width: 1060px) {
+  /* main-container */
+  #how-it-works {
+    padding: 150px 20px;
+  }
+
+  /* How it works heading */
+  #how-it-works h2 {
+    margin-bottom: 70px;
+    font-size: 2.3em;
+  }
+
+  /* Headings 'Register', 'Create your learning path' and 'Start learning' */
+  #how-it-works h3 {
+    font-size: 1.5em;
+  }
+
+  /* Paragraphs describing each process */
+  #how-it-works p {
+    font-size: 1.05em;
+  }
+
+  /* Icons */
+  #register-icon i,
+  #learning-path-icon i,
+  #study-icon i {
+    font-size: 40px;
+  }
+}
+
+/* VIDEO SECTION */
+@media only screen and (min-width: 275px) {
+  /* Main container */
+  #video-section {
+    flex-direction: column;
+    padding: 100px 0;
+  }
+
+  /* Container for the video */
+  #video-section-first-column {
+    margin-right: 0;
+  }
+
+  /* Container for the text and the download app buttons */
+  #video-section-second-column {
+    padding: 0 15px;
+  }
+
+  /* Learn from experts in programming...*/
+  #video-section-second-column h2 {
+    font-size: 1.3em;
+  }
+
+  /* Paragraph for the first column */
+  #video-section-first-column p {
+    margin-bottom: 25px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Container for the download app buttons */
+  #download-app {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Select the first download app button image */
+  #download-app img:nth-of-type(1) {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  iframe {
+    height: 360px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* Main container */
+  #video-section {
+    flex-direction: row;
+    padding: 100px 40px;
+  }
+
+  /* Container for the video */
+  #video-section-first-column {
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+
+  /* Video copyright paragraph */
+  #video-section-first-column p {
+    margin-top: 0;
+  }
+
+  iframe {
+    width: 450px;
+  }
+
+  /* Container for the download app buttons */
+  #download-app {
+    display: inline-block;
+  }
+
+  /* Select the first download app button image */
+  #download-app img:nth-of-type(1) {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  /* Main container */
+  #video-section {
+    align-items: center;
+  }
+
+  /* Learn from experts in programming...*/
+  #video-section-second-column h2 {
+    font-size: 1.5em;
+  }
+
+  iframe {
+    width: 640px;
+    height: 360px;
+    padding-bottom: 15px;
+  }
+}
+
+/* BENEFITS SECTION */
+@media only screen and (min-width: 275px) {
+  /* Main container */
+  #benefits {
+    padding: 150px 0px;
+  }
+
+  /* 'Why choose byte' heading */
+  #benefits h2 {
+    font-size: 2.02em;
+  }
+
+  /* Heading for each benefit */
+  #benefits h3 {
+    margin-bottom: 15px;
+  }
+
+  /* Paragraphs */
+  #benefits-main-paragraph {
+    font-size: 1.2em;
+  }
+
+  /* Containers for the benefits */
+  #benefits-first-row,
+  #benefits-second-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* First benefits container */
+  #benefits-first-row {
+    margin-bottom: 0;
+  }
+
+  /* Select all the benefits */
+  #benefits-first-row div,
+  #benefits-second-row div {
+    width: auto;
+    margin-bottom: 40px;
+  }
+
+  /* Selects the last element in the second row */
+  #payment {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* 'Why choose byte' heading */
+  #benefits h2 {
+    font-size: 2.3em;
+  }
+
+  /* 'Byte is effective online education' paragraph */
+  #benefits-main-paragraph {
+    font-size: 1.3em !important;
+  }
+
+  /* Containers for the benefits */
+  #benefits-first-row,
+  #benefits-second-row {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  /* First benefits container */
+  #benefits-first-row {
+    margin-bottom: 60px;
+  }
+
+  /* Select all the benefits */
+  #benefits-first-row div,
+  #benefits-second-row div {
+    width: 33.33%;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  /* Main container */
+  #benefits {
+    padding: 150px 60px;
+  }
+}
+
+/* CUSTOMERS SECTION */
+@media only screen and (min-width: 275px) {
+  /* Main container */
+  #customers {
+    padding: 100px 10px;
+  }
+
+  /* 'What our customers are saying' heading */
+  #customers h2 {
+    font-size: 2.02em;
+  }
+
+  /* 'Byte has helped thousands...' paragraph */
+  #customers-main-paragraph {
+    font-size: 1.2em;
+  }
+
+  /* Testimonials container */
+  #customers-container {
+    flex-direction: column;
+  }
+
+  /* Selects the last testimonial */
+  #robert {
+    margin-bottom: 0;
+  }
+
+  /* Testimonial */
+  .testimonial-container {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* 'What our customers are saying' heading */
+  #customers h2 {
+    font-size: 2.3em;
+  }
+
+  /* 'Byte has helped thousands...' paragraph */
+  #customers-main-paragraph {
+    font-size: 1.3em;
+  }
+
+  /* Testimonials container */
+  #customers-container {
+    flex-direction: row;
+  }
+
+  /* Testimonial */
+  .testimonial-container {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  /* Main container */
+  #customers {
+    padding: 100px 60px;
+  }
+}
+
+/* PLANS SECTION */
+@media only screen and (min-width: 275px) {
+  /* Main container */
+  #plans {
+    padding: 100px 10px;
+  }
+
+  /* 'Pick your plan' heading */
+  #plans h2 {
+    font-size: 2.02em;
+  }
+
+  /* 'Start learning today' paragraph */
+  #plans-main-paragraph {
+    font-size: 1.2em;
+  }
+
+  /* Container for each plan */
+  #plans-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* Styles for each plan */
+  .plan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Basic plan and pro plan */
+  #basic-plan,
+  #pro-plan {
+    margin-bottom: 30px;
+  }
+
+  /* Container of features for the basic and pro plan */
+  #basic-plan .features,
+  #pro-plan .features{
+    margin-top: 20px;
+  }
+
+  /* Heading for each plan */
+  .plan h3 {
+    margin-right: 0;
+    display: block;
+    text-align: center;
+  }
+
+  /* Price for each plan */
+  .plan-price {
+    margin: 0 auto;
+    display: table;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* Container for each plan */
+  #plans-container {
+    flex-direction: row;
+  }
+
+  /* 'Pick your plan' heading */
+  #plans h2 {
+    font-size: 2.3em;
+  }
+
+  /* 'Start learning today' paragraph */
+  #plans-main-paragraph {
+    font-size: 1.3em;
+  }
+
+  /* Basic plan and pro plan */
+  #basic-plan,
+  #pro-plan {
+    margin-bottom: 0;
+  }
+
+  /* Basic plan and for teams plan */
+  #basic-plan,
+  #for-teams-plan {
+    align-self: flex-end;
+  }
+
+  /* Pro plan */
+  #pro-plan {
+    border: 2px dashed khaki;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  /* Main container */
+  #plans {
+    padding: 100px 60px;
+  }
+}
+
+/* FOOTER */
+@media only screen and (min-width: 275px) {
+  /* Main container */
+  footer {
+    padding: 30px 0;
+    flex-direction: column;
+  }
+
+  /* container for the subscribe elements */
+  #subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Subscribe form */
+  #subscribe form {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  /* Email input */
+  #subscribe input[type="email"] {
+    text-align: center;
+  }
+
+  /* 'Subscribe to our newsletter' paragraph */
+  #subscribe p {
+    text-align: center;
+  }
+
+  /* Container for the customer service and company containers */
+  #links-container {
+    flex-direction: column;
+  }
+
+  /* Containers for the customer service and company links */
+  #links-container-first-column,
+  #links-container-second-column {
+    text-align: center;
+  }
+
+  /* Customer service column */
+  #links-container-first-column {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Customer service and company paragraphs */
+  #links-container-first-column p,
+  #links-container-second-column p {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  /* Subscribe form */
+  #subscribe form {
+    width: 43%;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* Main container */
+  footer {
+    padding: 30px 60px;
+    flex-direction: row;
+  }
+
+  /* container for the subscribe elements */
+  #subscribe {
+    align-items: flex-start;
+  }
+
+  /* Container for the customer service and company containers */
+  #links-container {
+    flex-direction: row;
+  }
+
+  /* Subscribe form */
+  #subscribe form {
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  /* Customer service column */
+  #links-container-first-column {
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+
+  /* Email input */
+  #subscribe input[type="email"] {
+    text-align: left;
+  }
+
+  /* Customer service and company paragraphs */
+  #links-container-first-column p,
+  #links-container-second-column p {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  /* Main container */
+  footer {
+    padding: 30px 100px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  /* Main container */
+  footer {
+    padding: 30px 150px;
+  }
+}

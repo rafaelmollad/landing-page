@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
   </head>
   <body>
     <header id="header"><!-- HEADER -->
@@ -21,8 +22,8 @@
           <li class="nav-link"><a href="#plans">Pricing</a></li>
         </ul>
         <div id="nav-buttons">
-          <a class="nav-link" href="#">Login</a>
-          <a class="nav-link" href="#">Sign up</a>
+          <a id="login-button" class="nav-button" href="#">Login</a>
+          <a id="sign-up-button" class="nav-button" href="#">Sign up</a>
         </div>
       </nav>
     </header>
@@ -30,18 +31,22 @@
       <div id="hero-content">
         <div id="hero-info">
           <h2>Coding made simple</h2>
-          <p>We’re here to help you learn to code,<br>so you save time and money.</p>
+          <p>We’re here to help you learn to code,so you save time and money.</p>
         </div>
-        <a href="#" id="hero-button"><span class="get-started">Get started</span></a>
+        <a href="#" id="hero-button">Get started</a>
       </div>
     </section>
     <section id="seen-on"><!-- SEEN ON SECTION -->
-      <img src="images/seen-on/fastcompany-logo.png">
-      <img src="images/seen-on/msnbc-logo.png">
-      <img src="images/seen-on/statesman-logo.png">
-      <img src="images/seen-on/sxsw-logo.png">
-      <img src="images/seen-on/venturebeat-logo.png">
-      <img src="images/seen-on/wired-logo.png">
+      <div class="seen-on-images-container">
+        <img src="images/seen-on/fastcompany-logo.png">
+        <img src="images/seen-on/msnbc-logo.png">
+        <img src="images/seen-on/statesman-logo.png">
+      </div>
+      <div class="seen-on-images-container">
+        <img src="images/seen-on/sxsw-logo.png">
+        <img src="images/seen-on/venturebeat-logo.png">
+        <img src="images/seen-on/wired-logo.png">
+      </div>
     </section>
     <section id="how-it-works"><!-- HOW IT WORKS SECTION -->
       <h2>How it works</h2>
